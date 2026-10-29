@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Class Schedule | IronForge Fitness</title>
+<meta name="description" content="Browse the weekly IronForge class schedule: strength, HIIT, yoga, boxing, functional training, mobility, spin and personal training.">
+<meta property="og:title" content="Class Schedule | IronForge Fitness">
+<meta property="og:description" content="Find a class that fits your week, Monday to Sunday.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero-gym.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+<section class="hero page-hero" aria-label="Schedule">
+  <div class="hero-bg"><img src="images/hero-gym.jpg" alt="" width="1920" height="1080"></div>
+  <div class="wrap">
+    <span class="label" data-hero data-reveal>Schedule</span>
+    <h1><span class="ln"><span>Train on</span></span><span class="ln"><span>your terms.</span></span></h1>
+    <p data-hero data-reveal>Coached classes from early morning to evening, seven days a week.</p>
+  </div>
+</section>
+
+<section aria-labelledby="dayTitle">
+  <div class="wrap">
+    <div class="filters" id="days" role="group" aria-label="Choose a day"></div>
+    <h2 class="day-title" id="dayTitle">Monday</h2>
+    <div id="classes" aria-live="polite"></div>
+  </div>
+</section>
+</main>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mt">
+  <div class="box">
+    <span class="label">Booking</span>
+    <h2 id="mt">Your spot is reserved</h2>
+    <p id="mDetail"></p>
+    <p>This is a portfolio demo. No real booking has been made.</p>
+    <button class="btn" id="mClose" type="button">Close</button>
+  </div>
+</div>
+
+<div id="site-footer"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/schedule.js"></script>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>

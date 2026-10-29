@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Membership Plans & Pricing | IronForge Fitness</title>
+<meta name="description" content="Choose your IronForge membership: Starter $29, Pro $59 or Elite $99 per month. Save up to 20% with yearly billing.">
+<meta property="og:title" content="Membership Plans & Pricing | IronForge Fitness">
+<meta property="og:description" content="Three plans, 24/7 access, and 7 days free for new members.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/about-hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+<section class="hero page-hero" aria-label="Membership">
+  <div class="hero-bg"><img src="images/about-hero.jpg" alt="" width="1920" height="1080"></div>
+  <div class="wrap">
+    <span class="label" data-hero data-reveal>Membership</span>
+    <h1><span class="ln"><span>Choose your</span></span><span class="ln"><span>level.</span></span></h1>
+    <p data-hero data-reveal>No joining fees, no lock-in on monthly plans, and your first 7 days are free.</p>
+  </div>
+</section>
+
+<section aria-label="Pricing plans">
+  <div class="wrap">
+    <div class="toggle" data-reveal>
+      <span data-l="m" class="on">Monthly</span>
+      <button type="button" class="sw" id="bill" role="switch" aria-checked="false" aria-label="Bill yearly"><i></i></button>
+      <span data-l="y">Yearly</span>
+      <em>Save up to 20%</em>
+    </div>
+    <div class="plans" data-stagger>
+      <article class="plan" data-item>
+        <h3>Starter</h3><p class="d">For getting started.</p>
+        <div class="price"><sup>$</sup><span data-m="29" data-y="278">29</span><small data-per>/month</small></div>
+        <ul class="ticks"><li>24/7 gym access</li><li>Strength and cardio floors</li><li>4 group classes per month</li><li>Locker room access</li></ul>
+        <a class="btn btn-o" href="contact.html">Choose Starter</a>
+      </article>
+      <article class="plan pop" data-item>
+        <span class="badge">Most popular</span>
+        <h3>Pro</h3><p class="d">For members who train seriously.</p>
+        <div class="price"><sup>$</sup><span data-m="59" data-y="566">59</span><small data-per>/month</small></div>
+        <ul class="ticks"><li>Everything in Starter</li><li>Unlimited group classes</li><li>Recovery zone access</li><li>1 personal session per month</li><li>Custom training plan</li></ul>
+        <a class="btn" href="contact.html">Choose Pro</a>
+      </article>
+      <article class="plan" data-item>
+        <h3>Elite</h3><p class="d">Full coaching, full access.</p>
+        <div class="price"><sup>$</sup><span data-m="99" data-y="950">99</span><small data-per>/month</small></div>
+        <ul class="ticks"><li>Everything in Pro</li><li>4 personal sessions per month</li><li>Nutrition coaching</li><li>Priority class booking</li><li>4 guest passes per month</li></ul>
+        <a class="btn btn-o" href="contact.html">Choose Elite</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--surface)" aria-labelledby="cmp-h">
+  <div class="wrap">
+    <div class="sec-head" data-reveal><div><span class="label">Compare plans</span><h2 id="cmp-h">What's included.</h2></div></div>
+    <div class="tbl" data-reveal>
+      <table>
+        <caption class="sr">Feature comparison of Starter, Pro and Elite plans</caption>
+        <thead><tr><th scope="col">Feature</th><th scope="col">Starter</th><th scope="col" class="h">Pro</th><th scope="col">Elite</th></tr></thead>
+        <tbody>
+          <tr><td>24/7 gym access</td><td class="yes">✓</td><td class="h yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Group classes</td><td>4 per month</td><td class="h">Unlimited</td><td>Unlimited</td></tr>
+          <tr><td>Recovery zone</td><td>None</td><td class="h yes">✓</td><td class="yes">✓</td></tr>
+          <tr><td>Personal training</td><td>None</td><td class="h">1 per month</td><td>4 per month</td></tr>
+          <tr><td>Nutrition guidance</td><td>None</td><td class="h">Meal basics</td><td>Full coaching</td></tr>
+          <tr><td>Guest passes</td><td>None</td><td class="h">2 per month</td><td>4 per month</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="sec-head" data-reveal><div><span class="label">FAQ</span><h2 id="faq-h">Good questions.</h2></div></div>
+    <div class="faq-list" data-reveal>
+      <div class="faq"><button type="button" aria-expanded="false">Can I cancel anytime?<span aria-hidden="true"></span></button><div><p>Yes. Monthly memberships can be cancelled at any time with 30 days' notice. Yearly plans can be cancelled for a prorated refund within the first 14 days.</p></div></div>
+      <div class="faq"><button type="button" aria-expanded="false">Do you offer personal training?<span aria-hidden="true"></span></button><div><p>Yes. Pro includes one session a month and Elite includes four. Any member can add extra one-to-one sessions at member rates.</p></div></div>
+      <div class="faq"><button type="button" aria-expanded="false">Is there a free trial?<span aria-hidden="true"></span></button><div><p>New members get 7 days free on any plan. Book a tour, meet a coach and train before you pay anything.</p></div></div>
+      <div class="faq"><button type="button" aria-expanded="false">Do you have 24/7 access?<span aria-hidden="true"></span></button><div><p>Yes. Every plan includes 24/7 key-fob access. Coaches are on the floor during staffed hours.</p></div></div>
+      <div class="faq"><button type="button" aria-expanded="false">Can beginners join?<span aria-hidden="true"></span></button><div><p>Absolutely. Most of our members started as beginners, and every new member gets a coached intro session and a starter plan.</p></div></div>
+      <div class="faq"><button type="button" aria-expanded="false">Do you offer student memberships?<span aria-hidden="true"></span></button><div><p>Yes. Students with a valid ID get 15% off Starter and Pro. Ask at the front desk or mention it when you book your tour.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" aria-labelledby="cta-h">
+  <div class="wrap" data-reveal>
+    <h2 id="cta-h">Try it free<br>for 7 days.</h2>
+    <p>Pick a plan later. Come in, train and see if IronForge is your place.</p>
+    <a class="btn" href="contact.html">Start Free Trial</a>
+  </div>
+</section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/membership.js"></script>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
